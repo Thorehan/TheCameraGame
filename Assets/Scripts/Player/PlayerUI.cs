@@ -6,15 +6,14 @@ using TMPro;
 public class PlayerUI : MonoBehaviour
 {
 
-    [SerializeField] private TextMeshProUGUI interactText;
+    [SerializeField] private TextMeshProUGUI promptText;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     public void UpdateText(string promptMessage)
     {
-        interactText.text = promptMessage;
+        promptText.text = promptMessage;
     }
 }
