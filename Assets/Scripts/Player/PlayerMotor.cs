@@ -12,7 +12,6 @@ public class PlayerMotor : MonoBehaviour
     private float speed = 5f;
     
     public float gravity = -9.8f;
-    //public float jumpHeight = xxf; //zýplama olacak mý?
 
     void Start()
     {
@@ -42,13 +41,5 @@ public class PlayerMotor : MonoBehaviour
         //Debug.Log(playerVelocity.y);
     }
 
-    // eklemek için ctrl+k + ctrl+c kaldýrmak için ctrl+k + ctrl+u
-    //public void jump()
-    //{
-    //    if (isgrounded)
-    //    {
-    //        playervelocity.y = mathf.sqrt
-    //    }
 
-    //}
 }

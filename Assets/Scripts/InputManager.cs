@@ -11,6 +11,7 @@ public class InputManager : MonoBehaviour
     private PlayerMotor motor;
     private PlayerMouseLook look;
 
+
     void Awake()
     {
         playerInput = new PlayerInput();
